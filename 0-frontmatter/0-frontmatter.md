@@ -1,25 +1,27 @@
 ---
 author:
- - Νεκτάριος Μιχαηλίδης
-author-genitive: Νεκτάριου Μιχαηλίδη
-author-mnr: 1072594
+ - Νεκταρία Ζευγουλά
+author-genitive: Νεκταρίας Ζευγουλά
+author-mnr: 1089133
 subject: Διπλωματική
-title: Σχεδίαση και Ανάπτυξη Παιγνιώδους Διαδραστικού Τοίχου Αναρρίχησης
-title-en: Design and Development of an Interactive Climbing Wall used for Games and Training
-date: Φεβρουάριος 2025
+title: Υποστήριξη διδασκαλίας με ανάπτυξη Μεγάλων Γλωσσικών Μοντέλων
+title-en: Teaching support using Large Language Models
+date: Φεβρουάριος 2026
 place: Πάτρα
 school: Πολυτεχνική Σχολή
-department: Μηχανικών Η/Υ & Πληροφορικής
+department: Ηλεκτρολόγων Μηχανικών και Τεχνολογίας Υπολογιστών
 supervisor: Σιντόρης Χρήστος, Ε.ΔΙ.Π.
 commitee:
     - Ξένος Μιχάλης, Καθηγητής
     - Κομνηνός Ανδρέας, Επίκουρος Καθηγητής
 director: Δεν ξέρω
-abstract-el: Η διπλωματική εργασία αφορά την ανάπτυξη και αξιολόγηση ενός συστήματος διαδραστικών παιχνιδιών πολλών χρηστών, σε έναν τυποποιημένο τοίχο αναρρίχησης. Η διαχείριση του συστήματος θα γίνεται μέσω μιας κινητής εφαρμογής που θα επιτρέπει τον έλεγχο του τοίχου αναρρίχησης, και ενδεχομένως την παρακολούθηση της κίνησης του αναρριχητή, σε πραγματικό χρόνο.
+abstract-el: "Η παρούσα διπλωματική εργασία πραγματεύεται τη μελέτη, τον σχεδιασμό και την ανάπτυξη μιας διαδικτυακής εκπαιδευτικής πλατφόρμας, η οποία αξιοποιεί τις δυνατότητες των Μεγάλων Γλωσσικών Μοντέλων (LLMs) για να προσφέρει στοχευμένη υποστήριξη σε φοιτητές και διδάσκοντες. Η αναγκαιότητα του συστήματος εδράζεται πρωτίστως στην ανάγκη ενίσχυσης της ενεργητικής μάθησης μέσω τακτικών ερωτηματολογίων αυτοαξιολόγησης (quizzes), η χειροκίνητη σύνταξη των οποίων αποδεικνύεται εξαιρετικά χρονοβόρα για τους διδάσκοντες, ιδίως όταν απαιτείται συνδυασμός της προφορικής διδασκαλίας με το υλικό των διαφανειών. Δευτερευόντως, το σύστημα αντιμετωπίζει την τάση των φοιτητών να καταφεύγουν σε γενικά εργαλεία Τεχνητής Νοημοσύνης χωρίς ακαδημαϊκή τεκμηρίωση, γεγονός που υπονομεύει την ουσιαστική μελέτη και αυξάνει τον κίνδυνο αφομοίωσης λανθασμένων πληροφοριών (hallucinations).
 
-Το σύστημα θα καθοδηγεί τους χρήστες μέσω LED σε προκαθορισμένες διαδρομές που ακολουθούν μοτίβο παιχνιδιών που εχει διαλέξει ο χρήστης απο συνοδευτική εφαρμογή κινητής συσκευής. Επίσης το σύστημα θα υποστηρίζει ανταγωνιστική ή συνεργατική λειτουργία, με δύο χρήστες να μπορούν να αγωνίζονται είτε στον ίδιο χώρο, είτε διαδικτυακά, σε πραγματικό χρόνο.
-abstract-en: This thesis is about the development and evaluation of a multi-user interactive game system, on a standard climbing wall. The system will be managed through a mobile app that will allow control of the climbing wall, and possibly tracking the climber's movement, in real time.
-The system will guide users via LEDs on predetermined routes that follow a game pattern selected by the user from an accompanying mobile device application. Also, the system will support competitive or cooperative mode, with two users able to compete either in the same area, or online, in real time.
+
+Για την αντιμετώπιση αυτών των προκλήσεων, κεντρικό πυρήνα της πλατφόρμας αποτελεί ένας αυτοματοποιημένος, πολυτροπικός αγωγός (pipeline) παραγωγής ερωτηματολογίων. Μέσω αυτού, ο διδάσκων καταγράφει τη διάλεξή του, η οποία μετατρέπεται αυτόματα σε κείμενο μέσω απομαγνητοφώνησης (speech-to-text) και συγχωνεύεται με το εξαγόμενο κείμενο και τις περιγραφές των οπτικών στοιχείων των διαφανειών. Αξιοποιώντας αυτή την ενιαία βάση γνώσης, το σύστημα παράγει δυναμικά εξατομικευμένα quizzes —προσαρμοσμένα στις παραμέτρους του διδάσκοντα— συνοδευόμενα από επεξηγήσεις και παραπομπές στις πηγές του μαθήματος. Συμπληρωματικά, η πλατφόρμα ενσωματώνει ένα δευτερεύον υποσύστημα ερωταπαντήσεων (chatbot), το οποίο επιτρέπει στους φοιτητές να υποβάλλουν ερωτήματα με απαντήσεις βασισμένες αποκλειστικά στο εγκεκριμένο υλικό της διάλεξης, περιορίζοντας δραστικά τον κίνδυνο αυθαίρετων αποκρίσεων."
+
+abstract-en: "This diploma thesis presents the study, design, and development of a web-based educational platform that leverages Large Language Models (LLMs) and speech-to-text processing to support university instruction and active learning. The platform primarily addresses the challenge of creating regular self-assessment quizzes—a proven pedagogical tool for knowledge retention that is often neglected due to instructors' heavy workloads and the fragmentation of lecture content across spoken narration and presentation slides. To solve this, the core of the system consists of an automated, multimodal quiz generation pipeline: instructors record their lectures, which are automatically transcribed via speech-to-text and fused with extracted text and visual element descriptions from presentation slides. Using this unified knowledge base, the pipeline dynamically generates customized quizzes tailored to instructor parameters, complete with answer explanations and source references. Secondarily, the platform incorporates a complementary Q&A chatbot for students, operating under strict context grounding to provide responses anchored exclusively to verified lecture materials, thereby minimizing hallucinations and preventing passive reliance on unverified AI outputs."
+
 acknowlegements: Δεν ξέρω
 keywords-el:
     -
@@ -83,4 +85,3 @@ secnos-plus-name: Ενότητα
 secnos-star-name: Ενότητα
 caption-labelformat: original
 ---
-

@@ -1,0 +1,254 @@
+[
+    {
+        "type": "LoadedResource",
+        "verbosity": "INFO",
+        "for": "templates/eisvogel.tex",
+        "from": "templates/eisvogel.tex"
+    },
+    {
+        "type": "DuplicateIdentifier",
+        "verbosity": "WARNING",
+        "contents": "sec:intro",
+        "source": "chapter-1/1-introduction.md",
+        "line": 30,
+        "column": 1
+    },
+    {
+        "type": "DuplicateIdentifier",
+        "verbosity": "WARNING",
+        "contents": "sec:intro",
+        "source": "chapter-3/3-design.md",
+        "line": 3,
+        "column": 1
+    },
+    {
+        "type": "DuplicateIdentifier",
+        "verbosity": "WARNING",
+        "contents": "sec:pandoc",
+        "source": "chapter-3/3-design.md",
+        "line": 140,
+        "column": 1
+    },
+    {
+        "type": "LoadedResource",
+        "verbosity": "INFO",
+        "for": "bibliography/bibliography.bib",
+        "from": "bibliography/bibliography.bib"
+    },
+    {
+        "type": "LoadedResource",
+        "verbosity": "INFO",
+        "for": "chapter-1/asr_modern_pipeline.png",
+        "from": "chapter-1/asr_modern_pipeline.png"
+    },
+    {
+        "type": "LoadedResource",
+        "verbosity": "INFO",
+        "for": "chapter-1/internet-architecture.png",
+        "from": "chapter-1/internet-architecture.png"
+    },
+    {
+        "type": "LoadedResource",
+        "verbosity": "INFO",
+        "for": "chapter-1/internet-cables.png",
+        "from": "chapter-1/internet-cables.png"
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<sup>"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<sup>"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<sub>"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<sub>"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- \n<!-- #### Για το DOCX -->"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- \n<!-- Σε bash: -->"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- \n<!-- ```shell -->"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- ``` -->"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- \n<!-- Αντίστοιχα θα είναι η εντολή σε Windows shell, ίσως χρειάζεται προσοχή με τα backtick. -->"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<sup>"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<sup>"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<sub>"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<sub>"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- \n<!-- #### Για το DOCX -->"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- \n<!-- Σε bash: -->"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- \n<!-- ```shell -->"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- ``` -->"
+            ],
+            "t": "RawInline"
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "c": [
+                "html",
+                "<!-- \n<!-- Αντίστοιχα θα είναι η εντολή σε Windows shell, ίσως χρειάζεται προσοχή με τα backtick. -->"
+            ],
+            "t": "RawInline"
+        }
+    }
+]
