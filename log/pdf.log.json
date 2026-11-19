@@ -9,14 +9,6 @@
         "type": "DuplicateIdentifier",
         "verbosity": "WARNING",
         "contents": "sec:intro",
-        "source": "chapter-1/1-introduction.md",
-        "line": 30,
-        "column": 1
-    },
-    {
-        "type": "DuplicateIdentifier",
-        "verbosity": "WARNING",
-        "contents": "sec:intro",
         "source": "chapter-3/3-design.md",
         "line": 3,
         "column": 1
